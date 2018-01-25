@@ -28,8 +28,8 @@ int main()
 
   for(int j = 1; j < width ; j++)
   {
-    all = (m[i-1]^h) % 1000000007;
-    solid = all[i] - (m[i-1]*all[i-1]) % 1000000007;
+    all.push_back(m[j-1]^height) % 1000000007);
+    solid =   * (m[width-j-1]^height) % 1000000007;
     s.push_back(solid);
   }
   return 0;
