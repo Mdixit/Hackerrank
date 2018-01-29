@@ -35,9 +35,9 @@ int main()
   }
 
 
-  for(int j = 1; j < width ; j++)
+  for(int j = 2; j < width ; j++)
   {
-      temp_sol = (a[j] - (s[j-1] * (m[width-j]^height))) % 1000000007;
+      temp_sol = (a[j-1] - (s[j-1] * (m[j]^height))) % 1000000007;
       if (j > 1)
       {
         s.push_back((s[j-1] + temp_sol) % 1000000007);
