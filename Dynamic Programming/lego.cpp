@@ -4,6 +4,7 @@ using namespace std;
 long long int power(long long int w,int h)
 {
   long long int result = 1;
+  int l;
   long long int k = w;
   while(h)
   {
