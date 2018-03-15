@@ -7,6 +7,7 @@ int equal(vector <int> arr) {
     int min1;
     int min3;
     int min5;
+    
     for(int i = 0; i < arr.size();i++)
     {
         if (arr[i] < min)
